@@ -1,5 +1,7 @@
 **A**r**i**se
 
-Future open-source Shock-like game. Monochrome pixel graphics, 3d bio printing, AIs. Plot is about AI sex dolls on a Mars colony gaining sentience after human exctinction.
+![alt text](https://github.com/MudarAljundi/RPG_Arise/blob/master/GithubHeader.png?raw=true "Logo Title Text 2")
+
+Future open-source Shock-like game. 1-bit Monochrome graphics. Plot is about AI sex dolls on a Mars colony gaining sentience after human exctinction.
 
 Not ready for sharing yet :C Just cementing the names and ideas for the future.
