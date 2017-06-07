@@ -20,4 +20,3 @@ public class Player2DController : MonoBehaviour {
 		}
 	}
 }
-+
