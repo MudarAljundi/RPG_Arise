@@ -25,8 +25,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_CharacterTargetRot = character.localRotation;
             m_CameraTargetRot = camera.localRotation;
         }
-
-
+		
         public void LookRotation(Transform character, Transform camera)
         {
             float yRot = Input.GetAxis("Mouse X") * XSensitivity;
@@ -53,6 +52,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             UpdateCursorLock();
         }
+		
 
         public void SetCursorLock(bool value)
         {
