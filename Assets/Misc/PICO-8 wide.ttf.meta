@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 31faa025e805c534983d9c070413ffa6
+timeCreated: 1497173546
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: PICO-8 wide
+  fontNames:
+  - PICO-8 wide
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
