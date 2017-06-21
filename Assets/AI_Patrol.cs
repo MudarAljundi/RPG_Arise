@@ -13,17 +13,25 @@ public class AI_Patrol : MonoBehaviour {
 	private NavMeshAgent myNevMeshAgent;
 
 	// Use this for initialization
-	void Start () {
+	private void Start () {
 		myNevMeshAgent = GetComponent<NavMeshAgent>();
 
 		destination = points[0].position;
-
+		
 		myNevMeshAgent.SetDestination(destination);
 	}
-	
-	void Update () {
-		if (Vector3.Distance(transform.position, destination) < 0.5f) {
 
+	private void Update () {
+		print(currentPatrolIndex + " dist " + Vector3.Distance(transform.position, destination));
+		if (Vector3.Distance(transform.position, destination) < 1f) {
+
+			currentPatrolIndex += 1;
+			if (currentPatrolIndex == points.Length) {
+				currentPatrolIndex = 0;
+			}
+
+			destination = points[currentPatrolIndex].position;
+			myNevMeshAgent.SetDestination(destination);
 		}
 	}
 }

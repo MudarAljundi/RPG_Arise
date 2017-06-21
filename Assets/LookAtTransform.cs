@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LookAtTransform : MonoBehaviour {
 
-	private Transform target;
+	public Transform target;
 
 	public void Update () {
 		transform.LookAt(target);

@@ -8,7 +8,7 @@ public class RefrenceManager : MonoBehaviour {
 
 	// Use this for initialization
 	private void Awake() {
-		player = GameObject.Find("AriseFPSController");
+		player = GameObject.Find("Player2D");
 	}
 	
 }
